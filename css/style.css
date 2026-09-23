@@ -1,3 +1,4 @@
+
 header {
     padding: 20px;
     padding-left: 40px;
@@ -14,7 +15,7 @@ header {
 
 }
 
-ul {
+.nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -27,6 +28,22 @@ li a {
     color: black;
     padding: 10px 50px;
 
+}
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px
+    }
+    .nav ul {
+        display: flex;
+        width: auto;
+    }
+
+    li a {
+        padding: 10px 20px;
+    }
 }
 
 .hero-card {
