@@ -33,7 +33,8 @@ li a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 50px;
+    padding: 0px 20px 30px;
+
     
 }
 
@@ -46,9 +47,26 @@ li a {
 .button {
     border: none;
     color: white;
-    background-color: #B3B49D;
+    background-color: #b2b49d;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    text-align: center;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #b2b49d;
+}
+
+h2+p {
+    margin-top: 0px;
 }
