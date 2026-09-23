@@ -106,3 +106,8 @@ h2+p {
 .card-content {
     padding: 0px 20px 0px 20px;
 }
+
+.plan {
+    text-align: center;
+    padding: 10px 20px;
+}
