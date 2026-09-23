@@ -13,3 +13,18 @@ header {
     width: 50px;
     
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 50px;
+    
+}
